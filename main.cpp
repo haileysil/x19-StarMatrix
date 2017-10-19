@@ -9,7 +9,7 @@ int num_rows,num_cols;
 
 int main()
 {
-        cout<<"Please enter the number of rows and columns in the star matrix:"<<endl;
+        cout<<"Enter rows and columns of stars:"<<endl;
         cin>>num_rows;
         cin>>num_cols;
 
@@ -26,7 +26,7 @@ int main()
                                 starMatrix[r][c]='*';
                                 cout<<starMatrix[r][c];
                         }
-                        cout<<" "<<endl;
+                        cout<<endl;
                 }
         }
         else 
